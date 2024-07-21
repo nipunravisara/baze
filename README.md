@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/nipunravisara/baze">
+	<a href="https://github.com/nipunravisara/stargazers">
 		<img alt="Stars" src="https://img.shields.io/github/stars/nipunravisara/baze?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></a>
 	<a href="https://github.com/nipunravisara/baze/issues">
 		<img alt="Issues" src="https://img.shields.io/github/issues/nipunravisara/baze?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41"></a>
