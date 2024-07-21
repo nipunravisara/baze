@@ -1,8 +1,8 @@
-import React from 'react';
-import {StyleSheet} from 'react-native';
-import BaseTextInput, {BaseTextInputProps} from '../base/TextInput';
+import React from "react";
+import { StyleSheet } from "react-native";
+import BaseTextInput, { BaseTextInputProps } from "../base/TextInput";
 
-const TextInput: React.FC<BaseTextInputProps> = props => {
+const TextInput: React.FC<BaseTextInputProps> = (props) => {
   return (
     <BaseTextInput
       {...props}
@@ -23,12 +23,12 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   error: {
-    color: 'red',
+    color: "red",
     marginTop: 4,
   },
   input: {
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: "red",
     padding: 8,
     borderRadius: 4,
   },
