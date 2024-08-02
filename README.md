@@ -9,7 +9,7 @@
 	<a href="https://github.com/nipunravisara/baze/issues">
 		<img alt="Issues" src="https://img.shields.io/github/issues/nipunravisara/baze?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41"></a>
 	<a href="https://github.com/nipunravisara/baze">
-		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/nipunravisara/baze?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41"/></a>
+		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/nipunravisara/baze?color=%23DDB6F2&label=SIZE&logo=scrimba&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41"/></a>
 </p>
 
 A highly reusable and customizable base component for React Native applications. This component is designed to provide core functionality while allowing you to easily extend and style it to fit the specific needs of your project. So you don't have to write same old components for each project.
