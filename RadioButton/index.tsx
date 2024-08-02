@@ -1,11 +1,11 @@
-import React from "react";
-import { StyleSheet } from "react-native";
-import BaseRadioButton from "../base/RadioButton";
+import React from 'react';
+import {StyleSheet} from 'react-native';
+import BaseRadioButton from '../base/RadioButton';
 
 interface StyledRadioButtonProps {
   name: string;
   control: any;
-  options: Array<{ label: string; value: string }>;
+  options: Array<{label: string; value: string}>;
 }
 
 const StyledRadioButton: React.FC<StyledRadioButtonProps> = ({
@@ -28,8 +28,8 @@ const StyledRadioButton: React.FC<StyledRadioButtonProps> = ({
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: "row",
-    alignItems: "center",
+    flexDirection: 'row',
+    alignItems: 'center',
     marginBottom: 15,
   },
   radio: {
@@ -37,20 +37,20 @@ const styles = StyleSheet.create({
     width: 24,
     borderRadius: 12,
     borderWidth: 2,
-    borderColor: "#007AFF",
-    alignItems: "center",
-    justifyContent: "center",
+    borderColor: '#007AFF',
+    alignItems: 'center',
+    justifyContent: 'center',
     marginRight: 12,
   },
   selectedRadio: {
     height: 16,
     width: 16,
     borderRadius: 8,
-    backgroundColor: "#007AFF",
+    backgroundColor: '#007AFF',
   },
   label: {
     fontSize: 18,
-    color: "#007AFF",
+    color: '#007AFF',
   },
 });
 

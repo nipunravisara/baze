@@ -2,6 +2,7 @@ import React from 'react';
 import {Control, Controller, FieldError} from 'react-hook-form';
 import {
   StyleProp,
+  StyleSheet,
   Text,
   TextInput,
   TextInputProps,
@@ -37,9 +38,9 @@ const BaseTextInput: React.FC<BaseTextInputProps> = ({
   ...textInputProps
 }) => {
   return (
-    <View style={containerStyle}>
+    <View style={[styles.container, containerStyle]}>
       {label && (
-        <Text style={labelStyle} {...labelProps}>
+        <Text style={[styles.label, labelStyle]} {...labelProps}>
           {label}
         </Text>
       )}
@@ -48,7 +49,7 @@ const BaseTextInput: React.FC<BaseTextInputProps> = ({
         name={name}
         render={({field: {onChange, onBlur, value}}) => (
           <TextInput
-            style={inputStyle}
+            style={[styles.input, inputStyle]}
             onBlur={onBlur}
             onChangeText={onChange}
             value={value}
@@ -57,12 +58,32 @@ const BaseTextInput: React.FC<BaseTextInputProps> = ({
         )}
       />
       {error && (
-        <Text style={errorStyle} {...errorProps}>
+        <Text style={[styles.error, errorStyle]} {...errorProps}>
           {error.message}
         </Text>
       )}
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    marginBottom: 16,
+  },
+  label: {
+    fontSize: 16,
+    marginBottom: 4,
+  },
+  error: {
+    color: 'red',
+    marginTop: 4,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#727272',
+    padding: 8,
+    borderRadius: 4,
+  },
+});
 
 export default BaseTextInput;
