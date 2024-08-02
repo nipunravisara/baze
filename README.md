@@ -12,8 +12,7 @@
 		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/nipunravisara/baze?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41"/></a>
 </p>
 
-A highly reusable and customizable base component for React Native applications. This component is designed to provide core functionality while allowing you to easily extend and style it to fit the specific needs of your project.
-Features
+A highly reusable and customizable base component for React Native applications. This component is designed to provide core functionality while allowing you to easily extend and style it to fit the specific needs of your project. So you don't have to write same old components for each project.
 
 ## How to use
 
@@ -25,6 +24,10 @@ Just clone this as your components folder, Simple 🥳
 - Customizable: Easily extendable to add custom styles and behaviors.
 - Flexible: Designed to be adaptable to a wide range of use cases.
 - Consistent: Provides a consistent foundation for building complex components.
+
+## Dependencies
+
+- [React Hook Form](https://react-hook-form.com/)
 
 <div align="center">
 Happy coding 🤘
