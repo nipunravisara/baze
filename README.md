@@ -15,6 +15,10 @@
 A highly reusable and customizable base component for React Native applications. This component is designed to provide core functionality while allowing you to easily extend and style it to fit the specific needs of your project.
 Features
 
+## How to use
+
+Just clone this as your components folder, Simple 🥳
+
 ## Features
 
 - Reusable: Can be used across multiple projects with minimal configuration.
