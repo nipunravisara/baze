@@ -1,6 +1,6 @@
 {
-  "name": "@baze/button",
-  "version": "0.0.1",
+  "name": "@bazic/button",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,11 @@
     "react": "^18.0.0",
     "react-native": ">=0.70.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "rollup -c"
-  }
+    "build": "tsc"
+  },
+  "gitHead": "9f908b59482650f08acc9ceab850cb0f5639d74b"
 }
